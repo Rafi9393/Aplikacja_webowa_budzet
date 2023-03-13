@@ -1,0 +1,180 @@
+body
+{
+	background-color: #474747;
+	color: #bdc1c6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+header
+{
+	background-color: rgba(0,0,0,0.32);
+	min-height: 64px;
+}
+
+#mainmenu a
+{
+	font-size: 16px;
+	color: #bdc1c6;
+}
+
+.navbar-nav a:hover 
+{
+	color: #0275d8 !important;
+}
+
+.navbar-brand
+{
+	font-family: 'Joti One';font-size: 20px;
+	color: white !important;
+	
+}
+
+
+.profile-box
+{
+	max-width: 150px;
+	max-height: 47px;
+	
+}
+
+.profile-box a
+{
+	font-size: 16px;
+	color: #bdc1c6 !important;
+}
+
+.profile-box a:hover 
+{
+	color: #0275d8 !important;
+}
+
+
+.add-form
+{
+	font-weight: 300;
+	line-height: 1.4;
+	background-color: rgba(0,0,0,0.22);
+	border-radius: 20px;
+
+}
+
+.dropdown-menu
+{
+	background-color: rgba(0,0,0,0.32);
+}
+
+h2
+{
+	font-family: 'Joti One';font-size: 26px;
+	color: white !important;
+}
+
+
+.form-check
+{
+	text-align: left;
+}
+
+th
+{
+	font-size: 12px;
+}
+
+td
+{
+	font-size: 11px;
+}
+
+.btn-xs
+{
+	font-size: 7px;
+	padding: 3px;
+}
+.table-gray
+{
+	background-color: rgba(0,0,0,0.15);
+}
+
+thead
+{
+	background-color: rgba(0,0,0,0.32);
+}
+
+
+.dataTables_length, .dataTables_paginate
+{
+	font-size: 10px;
+	color: #bdc1c6 !important;
+}
+
+.dataTables_filter, .dataTables_info
+{
+	font-size: 10px;
+	color: #bdc1c6 !important;
+}
+
+.odd, .even
+{
+	background-color: rgba(0,0,0,0.15) !important;
+}
+
+.odd:hover, .even:hover
+{
+	background-color: rgba(0,0,0,0.32) !important;
+}
+
+.dataTables_filter input
+{
+	background-color: rgba(255, 255, 255, 0.76);
+}
+
+.date-range-picker
+{
+	font-size: 12px;
+	
+}
+
+h1
+{
+	font-family: 'Joti One';font-size: 36px;
+	color: white !important;
+}
+
+#myChart
+{
+	width: 450px;
+	height: 250px;
+	text-align: center;
+
+}
+
+h3
+{
+	font-family: 'Joti One';font-size: 30px;
+	color: green !important;
+	
+}
+
+.card-body {
+  padding: 0 20px 20px 20px;
+  background-color: #363636;
+}
+
+.card {
+  margin-bottom: 30px;
+  border: none;
+  box-shadow: 0px 0 30px #363636;
+}
+
+.main-img
+{
+	width: 300px;
+	height: 300px;
+}
+
+.main-text
+{
+	font-family: 'Joti One';font-size: 20px;
+	color: white !important;
+}
