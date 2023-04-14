@@ -75,90 +75,67 @@
 					
 					
 	</header>
-	<main>
-		
-		
-		
-			<div class="container">
-				
-				
-				
-				<div class="row ">
+	<main>	
+			<section>
+				<form>
+					<div class="row pt-3 pb-3 form-box col-sm-7 mx-auto">
+						<h1 class="mb-5 mt-5 offset-1 col-10">Dodaj wydatek</h1>
+						<label for="inputKwota" class="offset-sm-1 col-sm-2 col-form-label">Kwota</label>
+						<div class="col-12 col-sm-8 mb-3">
+							<input type="number" min="0.01" placeholder="123zł" class="form-control" id="inputKwota">
+						</div>
 					
-					<div class="col-6 pt-5 mx-auto">
+						<label for="inputDate" class="offset-sm-1 col-sm-2 col-form-label">Data</label>
+						<div class="col-12 col-sm-8 mb-3">
+							<input type="date" min="2023-01-01" class="form-control" id="inputDate">
+						</div>
+						<div class="col-12 col-sm-8 offset-sm-3 mb-3">
+							<select class="form-select form-select-sm">
+								<option selected>Gotówka</option>
+								<option value="1">Karta debetowa</option>
+								<option value="2">Karta kredytowa</option>
+							</select>
+						</div>
+						<div class="offset-sm-3 col-8 mb-3">
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+								<label class="form-check-label" for="gridRadios1">
+								Jedzenie  
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+								<label class="form-check-label" for="gridRadios2">
+								Mieszkanie
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option2">
+								<label class="form-check-label" for="gridRadios3">
+								Transport
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option2">
+								<label class="form-check-label" for="gridRadios4">
+								Inne wydatki
+								</label>
+							</div>
+						</div>
 						
-						
-							<h2 class="mb-4 ">Dodaj wydatek</h2>
-							<div class="justify-content-center">
-							
-								<form>
-									<div class="row mb-3">
-									  <label   class="col-sm-2 col-form-label">Kwota</label>
-									  
-										<input type="text" placeholder="123,00 zł" class="form-control">
-									  
-									</div>
-									<div class="row mb-3">
-									  <label class="col-sm-2 col-form-label">Data</label>
-									  
-										<input type="date" class="form-control">
-									 
-									</div>
-									<select class="form-select form-select-sm mb-3 mt-3" aria-label=".form-select-sm example">
-									  <option selected>Gotówka</option>
-									  <option value="1">Karta debetowa</option>
-									  <option value="2">Karta kredytoa</option>
-									</select>
-									<div class="col-sm-10 mr-auto mb-3">
-										<div class="form-check">
-										  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-										  <label class="form-check-label" for="gridRadios1">
-											Jedzenie  
-										  </label>
-										</div>
-										<div class="form-check">
-										  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-										  <label class="form-check-label" for="gridRadios2">
-											Mieszkanie
-										  </label>
-										</div>
-										<div class="form-check">
-										  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option2">
-										  <label class="form-check-label" for="gridRadios3">
-											Transport
-										  </label>
-										</div>
-										<div class="form-check">
-										  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option2">
-										  <label class="form-check-label" for="gridRadios4">
-											Inne wydatki
-										  </label>
-										</div>
-										
-									 </div>
-									 <div class="form-group">
-										<label for="exampleFormControlTextarea1">Komentarz</label>
-										<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-									 </div>
-									 <div class="row mb-3">
-									  <div class=" pt-3">
-										<button type="submit" class="btn btn-primary">Dodaj przychód</button>
-										<button type="button" class="btn btn-primary">Anuluj</button>
-									  </div>
-									</div>
-								</form>
+							<label for="Textarea" class="offset-sm-1 col-sm-2 col-form-label">Komentarz</label>
+							<div class="col-12 col-sm-8 mb-3">
+							<textarea class="form-control" id="Textarea" rows="3" maxlength="150"></textarea>
 							</div>
 						
+						<div class="offset-sm-3 mb-3 pl-3">
+							<button type="submit" class="btn btn-primary">Dodaj przychód</button>
+							<button type="button" class="btn btn-primary">Anuluj</button>
+						</div>
+						
 					</div>
-					
-
-				
-				</div>
-				
-			</div>	
-				
-		
-		
+				</form>
+		</section>	
 	</main>
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

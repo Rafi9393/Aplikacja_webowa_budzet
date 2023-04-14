@@ -12,6 +12,10 @@ header
 	min-height: 64px;
 }
 
+textarea {
+	resize: none;
+}
+
 #mainmenu a
 {
 	font-size: 16px;
@@ -62,6 +66,12 @@ header
 .dropdown-menu
 {
 	background-color: rgba(0,0,0,0.32);
+}
+
+h1
+{
+	font-family: 'Joti One';font-size: 36px;
+	color: white !important;
 }
 
 h2
@@ -133,12 +143,6 @@ thead
 {
 	font-size: 12px;
 	
-}
-
-h1
-{
-	font-family: 'Joti One';font-size: 36px;
-	color: white !important;
 }
 
 #myChart
